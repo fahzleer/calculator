@@ -1,0 +1,18 @@
+{
+  "name": "calculator",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "bun run --watch index.ts",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "prettier": "^3.8.3",
+    "vitest": "^4.1.6"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
